@@ -11,6 +11,8 @@ if current_speed > speed_limit:
 # resulting error message to fix the error.
 """
 When the code is executed, it returns: 
+    if current_speed > speed_limit
+                                  ^
 SyntaxError: expected ':'
 
 This error is raised when a program cannot be understood by the Python
